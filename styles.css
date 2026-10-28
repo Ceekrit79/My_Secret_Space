@@ -1,7 +1,8 @@
 /* UNIVERSAL SELECTOR */
 * {
-    /* 0 - 255, 0 - 100% */
-    color: rgb(31, 72, 32);
+    /* RGB: 0 - 255, 0 - 100% */
+    /* Hexadecimal */
+    color: rgb(75, 10, 75)
 }
 
 /* TYPE SELECTOR */
@@ -15,10 +16,10 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 /* ID SELECTOR */
 #header {
-    color: rgb(228, 11, 195);
+    color: rgba(99, 7, 107, 0.874);
 }
 
 /* CLASS SELECTOR */
 .header_text {
-    color: rgb(7, 134, 134);
+    color: rgb(17, 143, 143);
 }
