@@ -21,9 +21,11 @@ h2 {
 /* ID SELECTOR */
 #header {
     color: rgba(99, 7, 107, 0.874);
+    font-variant: small-caps;
 }
 
 /* CLASS SELECTOR */
 .header_text {
     color: rgb(17, 143, 143);
+    font-weight: bold;
 }
