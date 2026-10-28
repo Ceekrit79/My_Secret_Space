@@ -6,16 +6,16 @@
 } */
 
 /* TYPE SELECTOR */
-ul {
-   color: rgb(15, 175, 87); 
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
     color: rgb(107, 109, 223);
 }
 
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ul {
+   color: rgb(15, 175, 87); 
 }
 
 /* ID SELECTOR */
@@ -28,4 +28,9 @@ h2 {
 .header_text {
     color: rgb(17, 143, 143);
     font-weight: bold;
+}
+
+.hobby-link:hover {
+    color: rgb(84, 7, 82);
+    background-color: rgb(236, 9, 248);
 }
