@@ -1,8 +1,12 @@
 /* UNIVERSAL SELECTOR */
-* {
-    /* RGB: 0 - 255, 0 - 100% */
-    /* Hexadecimal */
+/* * {
+     RGB: 0 - 255, 0 - 100%
+     Hexadecimal
     color: rgb(40, 18, 124)
+} */
+
+ul{
+   color: rgb(15, 175, 87); 
 }
 
 /* TYPE SELECTOR */
