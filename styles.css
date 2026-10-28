@@ -5,17 +5,17 @@
     color: rgb(40, 18, 124)
 } */
 
-ul{
+/* TYPE SELECTOR */
+ul {
    color: rgb(15, 175, 87); 
 }
 
-/* TYPE SELECTOR */
 p {
     color: rgb(107, 109, 223);
 }
 
 h2 {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ID SELECTOR */
