@@ -15,10 +15,10 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 /* ID SELECTOR */
 #header {
-    color: orangered;
+    color: rgb(228, 69, 11);
 }
 
 /* CLASS SELECTOR */
 .header_text {
-    color: teal;
+    color: rgb(7, 134, 134);
 }
