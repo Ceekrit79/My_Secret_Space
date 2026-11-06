@@ -19,7 +19,7 @@ li {
     display: flex;
     margin-bottom: 10px;
     font-size: 1.1rem;
-    
+    padding: .5em 1em;
 }
 a {
     display: flex;
@@ -41,6 +41,7 @@ p {
 }
 
 ul {
+    display: flex;
     color: rgb(15, 175, 87);
     list-style-type: none; 
     padding-left: 10px;
