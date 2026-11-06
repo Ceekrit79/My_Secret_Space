@@ -1,13 +1,39 @@
 /* UNIVERSAL SELECTOR */
 /* * {
-     RGB: 0 - 255, 0 - 100%
-     Hexadecimal
+    RGB: 0 - 255, 0 - 100%
+    Hexadecimal
     color: rgb(40, 18, 124)
 } */
 
-/* TYPE SELECTOR */
+/* Navigation Menu */
+nav {
+    background-color: rgb(116, 39, 215); 
+    background-image: url("images/360banner.png");
+    background-repeat: no-repeat;  /* Stops it from tiling */
+    background-position: center center; /* Positions it nicely in the center */
+    background-size: cover;
+    padding-bottom: 3em 1em;
+}
+
+li {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    
+}
+a {
+    display: flex;
+    color: rgb(135, 206, 250);
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* TYPE SELECTORS */
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(204, 21, 225);
 }
 
 p {
@@ -15,27 +41,73 @@ p {
 }
 
 ul {
-   color: rgb(15, 175, 87); 
+    color: rgb(15, 175, 87);
+    list-style-type: none; 
+    padding-left: 10px;
+    margin-top: 15px;
 }
 
-/* ID SELECTOR */
+img {
+    width: 100%; max-width: 600px;
+}
+
+
+/* ID SELECTORS */
 #header {
-    color: rgba(99, 7, 107, 0.874);
+    color: rgba(221, 52, 236, 0.874);
     font-variant: small-caps;
+    text-align: center;
 }
 
-/* CLASS SELECTOR */
+#nav_ul { /*menu list only*/
+    display: flex;
+    padding-right: 20px;
+}
+
+#link_a {
+    color: rgb(155, 171, 235);
+}
+
+#interests {
+    color: blue;
+}
+
+#hobbies {
+    color: blue;
+}
+
+#top {
+    color: blue;
+}
+
+/* CLASS SELECTORS */
 .header_text {
     color: rgb(17, 143, 143);
     font-weight: bold;
 }
 
-.hobby-link:hover {
+.hobby-link {
     color: rgb(84, 7, 82);
-    background-color: rgb(236, 9, 248);
 }
 
-/* RELATIONAL SELECTOR */
+/* FLEXBOX CONTAINER*/
+.cool-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    max-width: 550px;
+    margin: 30px auto;
+    padding: 25px;
+
+    background-color: #c7a4fc;
+    border: 2px solid #7427d7;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(116, 39, 215, 0.15);
+}
+
+/* RELATIONAL SELECTORS */
 p em {
     font-style: italic;
     font-weight: bold;
