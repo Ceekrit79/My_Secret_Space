@@ -92,7 +92,7 @@ img {
 
 /* FLEXBOX CONTAINER*/
 .cool-box {
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
